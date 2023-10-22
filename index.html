@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Website Redirect</title>
+    <title>CTDB TOCID Reverse Lookup</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="main.css"></link>
 </head>
 <body>
-    <h1>Website Redirect</h1>
+    <h1>CTDB TOCID Reverse Lookup</h1>
     <input type="text" id="website" placeholder="Enter CTDB TOCID">
-    <button onclick='window.location.href = `https://http://db.cuetools.net/?tocid=${document.getElementById("website").value}`'>Redirect</button>
+    <button onclick="redirect()">Redirect</button>
+    <br><input type="checkbox">Open in new Tab</input></br>
 </body>
 </html>
